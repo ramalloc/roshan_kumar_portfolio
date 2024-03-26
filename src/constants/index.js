@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { Edunet_Foundation, Oasis_Infobyte } from "../assets/images";
 import {
     car,
     contact,
@@ -108,7 +108,7 @@ export const experiences = [
     {
         title: "Web Developer Intern",
         company_name: "Oasis Infobyte",
-        icon: starbucks,
+        icon: Oasis_Infobyte,
         iconBg: "#accbe1",
         date: "July 2023 - August 2023",
         points: [
@@ -121,7 +121,7 @@ export const experiences = [
     {
         title: "Frontend Developer IBM SkillsBuild",
         company_name: "Edunet Foundation",
-        icon: tesla,
+        icon: Edunet_Foundation,
         iconBg: "#fbc3bc",
         date: "August 2023 - October 2023",
         points: [
