@@ -63,11 +63,6 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
         imageUrl: mui,
         name: "Material-UI",
         type: "Frontend",
@@ -111,57 +106,31 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Web Developer Intern",
+        company_name: "Oasis Infobyte",
         icon: starbucks,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "July 2023 - August 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Enhanced website interaction, driving a 25% increase in user involvement through strategic JavaScript enhancements.",
+            "Simultaneously optimized page load times by 20% through CSS and code refinements.",
+            "Drove a 30% rise in mobile user retention by implementing responsive design strategies, collaborating crossfunctionally to craft pixel-perfect, intuitive web interfaces.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Frontend Developer IBM SkillsBuild",
+        company_name: "Edunet Foundation",
         icon: tesla,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "August 2023 - October 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Transformed designs into responsive web layouts, driving a 25% boost in cross-device engagement.",
+            "while integrated user-focused features elevated user satisfaction by 30%.",
+            "Implemented compelling animations, resulting in heightened user engagement; Optimized website performance, reducing loading times by 15%,",
+            "ensuring improved user accessibility; Acknowledged for high-quality code and designs.",
         ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    },  
 ];
 
 export const socialLinks = [
@@ -173,12 +142,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/ramalloc',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/roshan-kumar-0b400213a/',
     }
 ];
 
@@ -186,23 +155,16 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'MeraBlog - Blogging Web App',
+        description: 'Developed a ReactJS-based web app, resulting in a significant surge in user interaction and noticeable enhancements in load times through Redux implementation.',
+        link: 'https://mera-blog.vercel.app/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'UTube Backend',
+        description: 'A MERN-based video streaming platform featuring Cloudinary integration and JWT authentication for secure, seamless video sharing and viewing',
+        link: 'https://github.com/ramalloc/UTube-Backend',
     },
     {
         iconUrl: snapgram,
@@ -214,15 +176,15 @@ export const projects = [
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Cryptocurrency Tracker',
+        description: 'Developed a Real-Time Cryptocurrency Tracker Web App using React.js, Material UI, and Chart.js, with Context API for state management and Coin Gecko API integration. ',
+        link: 'https://crypto-trackerz.netlify.app/',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Collaborative Code Editor',
+        description: 'Users collaboratively edit code in real-time using the web application, leveraging features like CodeMirror for enhanced editing, while the backend manages session state and communication, facilitating seamless collaboration and sharing.',
+        link: 'https://github.com/ramalloc/Collaboratie-Code-Editor',
     }
 ];
