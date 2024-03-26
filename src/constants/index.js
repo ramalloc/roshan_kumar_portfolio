@@ -1,4 +1,4 @@
-import { Edunet_Foundation, Oasis_Infobyte } from "../assets/images";
+import { meta, Edunet_Foundation, Oasis_Infobyte } from "../assets/images/index.js";
 import {
     car,
     contact,
